@@ -1,0 +1,140 @@
+
+<HTML>
+	<HEAD>
+		<SCRIPT TYPE="text/javascript" SRC="http://jacob-petersen.com/scripts/jquery-1.9.0.min.js">          </SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="http://jacob-petersen.com/scripts/jquery-ui-1.9.2.custom.min.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="http://jacob-petersen.com/scripts/bootstrap/js/bootstrap.min.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="http://jacob-petersen.com/scripts/header.js">                    </SCRIPT>
+
+		<LINK TYPE="text/css" REL="stylesheet" HREF="http://jacob-petersen.com/scripts/bootstrap/css/bootstrap.min.css">                              </LINK>
+		<LINK TYPE="text/css" REL="stylesheet" HREF="http://jacob-petersen.com/scripts/bootstrap/css/bootstrap-responsive.min.css">                   </LINK>
+		<LINK TYPE="text/css" REL="stylesheet" HREF="http://jacob-petersen.com/scripts/jquery-ui-1.9.2/css/smoothness/jquery-ui-1.9.2.custom.min.css"></LINK>
+		<LINK TYPE="text/css" REL="stylesheet" HREF="http://jacob-petersen.com/scripts/fontAwesome/css/font-awesome.min.css">                         </LINK>
+		
+		<SCRIPT TYPE="text/javascript">
+			$(document).ready(function() {
+				$('.carousel').carousel({
+					interval:6000
+				});
+				loadHeader("Home");
+				loadFooter();
+			});
+		</SCRIPT>
+	</HEAD>
+	<BODY>
+		<DIV ID="Header">
+		</DIV>
+		<DIV CLASS="container">
+			<DIV CLASS="carousel slide">		
+				<DIV ID="carousel" CLASS="carousel-inner">
+					<DIV CLASS="active item">
+						<A HREF="http://about.jacob-petersen.com">
+							<IMG SRC="images/carouselImages/AboutMe.png">
+							<DIV CLASS="carousel-caption">
+								<H4>
+									Welcome to my site!
+								</H4>
+								<P>
+									This is my attempt at an online portfolio,
+									so feel free to look around and shoot me an email if you like what you see. 
+									Thanks for stopping by!
+								</P>
+							</DIV>
+						</A>
+					</DIV>
+					<DIV CLASS="item">
+						<A HREF="http://projects.jacob-petersen.com">
+						<IMG SRC="http://placehold.it/1200x480">
+							<DIV CLASS="carousel-caption">
+								<H4>
+									Image 2
+								</H4>
+								<P>
+									This is image two
+								</P>
+							</DIV>
+						</A>
+					</DIV>
+					<DIV CLASS="item">
+						<A HREF="http://resume.jacob-petersen.com">
+						<IMG SRC="images/carouselImages/Resume.png">
+						<DIV CLASS="carousel-caption">
+							<H4>
+								My Resume
+							</H4>
+							<P>
+								Looking for a reason to hire me? I made you a whole list.
+							</P>
+						</DIV>
+						</A>
+					</DIV>
+					<DIV CLASS="item">
+						<IMG SRC="http://placehold.it/1200x480">
+						<DIV CLASS="carousel-caption">
+							<H4>
+								Image 4
+							</H4>
+							<P>
+								This is image four
+							</P>
+						</DIV>
+					</DIV>
+					<DIV CLASS="item">
+						<IMG SRC="http://placehold.it/1200x480">
+						<DIV CLASS="carousel-caption">
+							<H4>
+								Image 5
+							</H4>
+							<P>
+								This is image five
+							</P>
+						</DIV>
+					</DIV>
+				</DIV>
+				<A CLASS="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</A>
+				<A CLASS="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</A>
+			</DIV>
+		</DIV>
+		<DIV ID="headings">
+			<DIV CLASS="container">
+				<DIV CLASS="row">
+					<DIV CLASS="span4">
+						<DIV CLASS="well">
+							<H2>
+								Hire Me!
+							</H2>
+							<P>
+								Looking to hire some people? Why not me? Check out my resume for an itemized list of reasons why you should. I mean, let's be honest, you didn't come to this site to pass the time.
+							</P>
+							<P><A CLASS="btn btn-primary" href="http://resume.jacob-petersen.com">View Resume</A></P>
+						</DIV>
+					</DIV>
+					<DIV CLASS="span4">
+						<DIV CLASS="well">
+							<H2>
+								Projects
+							</H2>
+							<P>
+								Ray tracers, memory managers, traveling salesman, oh my! Whether you love them or hate them, you have to admit, they're pretty cool. Check out mine, and other cool stuff, on my projects page.
+							</P>
+							<P><A CLASS="btn btn-primary" href="http://projects.jacob-petersen.com">View Projects </A></P>
+						</DIV>
+					</DIV>
+					<DIV CLASS="span4">
+						<DIV CLASS="well">
+							<H2>
+								Contact Me!
+							</H2>
+							<P>
+								Want to talk tech, mobile apps, whether or not Disney is going to make a decent Star Wars movie? Feel free to call me, shoot me an e-mail, or whatever form of communication you prefer. 
+							</P>
+							<P><A CLASS="btn btn-primary" href="http://contact.jacob-petersen.com">View Contact Info</A></P>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+	</BODY>
+	<FOOTER ID="Footer">
+	</FOOTER>
+</HTML>
